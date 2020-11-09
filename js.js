@@ -1,0 +1,13 @@
+var a = "Điểm Vật Lý";
+var b = "Điểm hoá học";
+var b = "Điểm sinh học";
+var a = prompt('nhập điểm vật lý');
+var b = prompt('nhập điểm hoá học');
+var c = prompt('nhập điểm sinh học');
+var a = parseInt(a);
+var b = parseInt(b);
+var c = parseInt(c);
+var p = ((a+b+c)/3);
+var s =(a+b+c);
+document.write("p =" + p);
+document.write("s =" + s);
